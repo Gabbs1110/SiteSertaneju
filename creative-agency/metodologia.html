@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>HTML Template</title>
+	<title>Metodologia</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
@@ -35,7 +35,7 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
-
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <body>
 
 	<!-- Header -->
@@ -66,10 +66,10 @@
 					<li><a href="index.html#home">Inicio</a></li>
 					<li><a href="index.html#about">Sobre</a></li>
 					<li><a href="index.html#ferramentas">Ferramentas</a></li>
-					<li><a href="index.html#metodologia">Metodologia</a></li>
-					<li><a href="index.html#processos">Processos</a></li>
+					<li><a href="#metodologia">Metodologia</a></li>
+					<li><a href="processos.html#processos">Processos</a></li>
 					<li><a href="index.html#time">Time</a></li>
-					
+
 					<li><a href="index.html#contato">Contato</a></li>
 				</ul>
 				<!-- /Main navigation -->
@@ -81,11 +81,10 @@
 		<!-- header wrapper -->
 		<div class="header-wrapper sm-padding bg-grey">
 			<div class="container">
-				<h2>Blog Page</h2>
 				<ul class="breadcrumb">
 					<li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-					
-					<li class="breadcrumb-item active">Processos</li>
+
+					<li class="breadcrumb-item active">Metodologia</li>
 				</ul>
 			</div>
 		</div>
@@ -95,7 +94,7 @@
 	<!-- /Header -->
 
 	<!-- Blog -->
-	<div id="blog" class="section md-padding">
+	<div id="metodologia" class="section md-padding">
 
 		<!-- Container -->
 		<div class="container">
@@ -104,41 +103,74 @@
 			<div class="row">
 
 				<!-- Main -->
-				<main id="main" class="col-md-9">
+				<main id="main">
 					<div class="blog">
-						<div class="blog-img">
-							<img class="img-responsive" src="./img/blog-post.jpg" alt="">
+						<div class="col-md-6">
+							<div class="blog-img">
+								<img class="img-responsive" src="./img/scrum.png" alt="">
+
+							</div>
 						</div>
-						<div class="blog-content">
-							
-							<h3>Processos</h3>
-							<p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+						<div class="col-md-6">
+							<div class="blog-img">
+								<img class="img-responsive" src="./img/fdd.png" alt="">
+
+							</div>
 						</div>
 
 						
 
+						<div class="blog-content col-md-12" >
 						
-
-						
-						<!-- reply form -->
-						<div class="reply-form">
-							<h3 class="title">Leave a reply</h3>
-							<form>
-								<input class="input" type="text" placeholder="Name">
-								<input class="input" type="email" placeholder="Email">
-								<textarea placeholder="Add Your Commment"></textarea>
-								<button type="submit" class="main-btn">Submit</button>
-							</form>
+							<h3 style="text-align: center">Metodologias de Desenvolvimento</h3>
+							<p>A Sertaneju utiliza a metodologia de Desenvolvimento FDD, ela combina as melhores p´raticas do gerenciamento ágil de projetos com uma abordagem completa para engenharia de software orientada por objetos, conquistando os tres principais publicos de um projeto de software:</p>
+							<ul style="list-style-type: circle" >
+								<li>Clientes</li>
+								<li>Gerentes</li>
+								<li>Desenvolvedores</li>
+							</ul>
+							<div>
+									<img class="img-responsive" src="./img/fddc.png" alt="">
+							</div>
+							<br>
+							<p>Seus princípios e práticas proporcionam um equilíbrio entre as filosofias tradicionais e as mais extremas, proporcionando uma transição mais suave para organizações mais conservadoras, e a retomada de responsabilidade para as organizações que se desiludiram com as propostas mais radicais.</p>
+							<p>O lema da FDD é : <strong>"Resultados frequentes, tangíveis e funcionais"</strong>. Para auxiliar o desenvolvimento do produto usamos tambem o SCRUM que é um proceso interativo e incremental para o desenvolvimento de qualquer produto ou gerenciamento de qualquer trabalho.</p>
+							<br>
+							<p>Scrum è:<br> Processo empírico de gerenciamento e controle.</p>
+							<ul style="list-style-type: circle" >
+									<li>Faz a inspeção e adaptação em loops de feedback</li>
+									<li>Faz entrega de valor ao cliente em até 30 dias</li>
+									<li>Escalável para suportar grandes projetos</li>
+								</ul>
+								<br>
+							<p>Valores do Scrum:</p>
+							<ul style="list-style-type: circle" >
+									<li>Transparência</li>
+									<li>Integridade: assim que receber algo, faça algo</li>
+									<li>Ser empírico</li>
+									<li>Auto-organização</li>
+									<li>Entrega de Valor</li>
+									</ul>
+							<br><br>
+							<div>
+									<img class="img-responsive" src="./img/scrumc.PNG" alt="">
+							</div>
+							<br><br><br>
 						</div>
-						<!-- /reply form -->
+
+
+
+
+
+
 					</div>
 				</main>
 				<!-- /Main -->
 
 
-				
 
-					
+
+
 
 			</div>
 			<!-- /Row -->
@@ -160,12 +192,6 @@
 
 				<div class="col-md-12">
 
-					<!-- footer logo -->
-					<div class="footer-logo">
-						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
-					</div>
-					<!-- /footer logo -->
-
 					<!-- footer follow -->
 					<ul class="footer-follow">
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -179,7 +205,8 @@
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com"
+								target="_blank">Colorlib</a></p>
 					</div>
 					<!-- /footer copyright -->
 
